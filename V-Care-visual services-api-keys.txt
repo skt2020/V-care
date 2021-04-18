@@ -1,0 +1,11 @@
+X-RAY
+https://southcentralus.api.cognitive.microsoft.com/customvision/v3.0/Prediction/5b81afbb-761b-47fd-8571-e7c01388c26c/classify/iterations/Iteration1/image
+4d8e11a853ec47e3b22fb1ffde102e9b
+
+Heart
+https://southcentralus.api.cognitive.microsoft.com/customvision/v3.0/Prediction/ed034b73-fc19-48d5-ae66-9041c8f5d858/classify/iterations/Iteration1/image
+4d8e11a853ec47e3b22fb1ffde102e9b
+
+Bones
+https://southcentralus.api.cognitive.microsoft.com/customvision/v3.0/Prediction/59edecc3-ae49-47c2-9d37-917233028774/classify/iterations/Iteration1/image
+4d8e11a853ec47e3b22fb1ffde102e9b

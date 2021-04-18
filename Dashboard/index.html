@@ -1,0 +1,974 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="au theme template">
+    <meta name="author" content="Hau Nguyen">
+    <meta name="keywords" content="au theme template">
+
+    <!-- Title Page-->
+    <title>Dashboard | V-Care</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <!-- Fontfaces CSS-->
+    <link href="css/font-face.css" rel="stylesheet" media="all">
+    <link href="vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
+    <link href="vendor/font-awesome-5/css/fontawesome-all.min.css" rel="stylesheet" media="all">
+    <link href="vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
+
+    <!-- Bootstrap CSS-->
+    <link href="vendor/bootstrap-4.1/bootstrap.min.css" rel="stylesheet" media="all">
+
+    <!-- Vendor CSS-->
+    <link href="vendor/animsition/animsition.min.css" rel="stylesheet" media="all">
+    <link href="vendor/bootstrap-progressbar/bootstrap-progressbar-3.3.4.min.css" rel="stylesheet" media="all">
+    <link href="vendor/wow/animate.css" rel="stylesheet" media="all">
+    <link href="vendor/css-hamburgers/hamburgers.min.css" rel="stylesheet" media="all">
+    <link href="vendor/slick/slick.css" rel="stylesheet" media="all">
+    <link href="vendor/select2/select2.min.css" rel="stylesheet" media="all">
+    <link href="vendor/perfect-scrollbar/perfect-scrollbar.css" rel="stylesheet" media="all">
+
+    <!-- Main CSS-->
+    <link href="css/theme.css" rel="stylesheet" media="all">
+
+</head>
+
+<body class="animsition">
+    <div class="page-wrapper" >
+        <!-- HEADER MOBILE-->
+        <header class="header-mobile d-block d-lg-none">
+            <div class="header-mobile__bar">
+                <div class="container-fluid">
+                    <div class="header-mobile-inner">
+                        <a class="logo" href="index.html">
+                            <img src="images/icon/logo.png" alt="CoolAdmin" />
+                        </a>
+                        <button class="hamburger hamburger--slider" type="button">
+                            <span class="hamburger-box">
+                                <span class="hamburger-inner"></span>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <nav class="navbar-mobile">
+                <div class="container-fluid">
+                    <ul class="navbar-mobile__list list-unstyled">
+                       
+                        <li>
+                            <a href="index.html">
+                                <i class="fas fa-tachometer-alt"></i>Dashboard</a>
+                        </li>
+                        <li>
+                            <a href="calendar.html">
+                                <i class="fas fa-calendar-alt"></i>Appointment</a>
+                        </li>
+                        <li>
+                            <a href="https://tawk.to/chat/5f218bf896e9c66c5ae57d5f/default">
+                                <i class="fas fa-comments"></i>Dr.Chat</a>
+                        </li>
+                        <li>
+                            <a href="https://web-chat.global.assistant.watson.cloud.ibm.com/preview.html?region=eu-gb&integrationID=e188c405-083c-4d7c-b1e4-414aa15b3200&serviceInstanceID=9ddec78c-2bbe-4d97-8017-7e44ffe4e486">
+                                <i class="fas fa-user"></i>Watson Health Assistant</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!-- END HEADER MOBILE-->
+
+        <!-- MENU SIDEBAR-->
+        <aside class="menu-sidebar d-none d-lg-block">
+            <div class="logo">
+                <a href="#">
+                    <img src="images/icon/logo.png" alt="Cool Admin" />
+                </a>
+            </div>
+            <div class="menu-sidebar__content js-scrollbar1">
+                <nav class="navbar-sidebar">
+                    <ul class="list-unstyled navbar__list">
+                        <li>
+                            <a href="index.html">
+                                <i class="fas fa-tachometer-alt"></i>Dashboard</a>
+                        </li>
+                        <li>
+                            <a href="calendar.html">
+                                <i class="fas fa-calendar-alt"></i>Appointment</a>
+                        </li>
+                        <li>
+                            <a href="https://tawk.to/chat/5f218bf896e9c66c5ae57d5f/default">
+                                <i class="fas  fa-comments"></i>Dr.Chat</a>
+                        </li>
+                        <li>
+                            <a href="https://web-chat.global.assistant.watson.cloud.ibm.com/preview.html?region=eu-gb&integrationID=e188c405-083c-4d7c-b1e4-414aa15b3200&serviceInstanceID=9ddec78c-2bbe-4d97-8017-7e44ffe4e486">
+                                <i class="fas fa-user"></i>Watson Health Assistant</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </aside>
+        <!-- END MENU SIDEBAR-->
+
+        <!-- PAGE CONTAINER-->
+        <div class="page-container">
+            <!-- HEADER DESKTOP-->
+            <header class="header-desktop">
+                <div class="section__content section__content--p30">
+                    <div class="container-fluid">
+                        <div class="header-wrap">
+                            <form class="form-header" action="" method="POST">
+                                <input class="au-input au-input--xl" type="text" name="search" placeholder="Search for datas &amp; reports..." />
+                                <button class="au-btn--submit" type="submit">
+                                    <i class="zmdi zmdi-search"></i>
+                                </button>
+                            </form>
+                            <div class="header-button">
+                                <div class="noti-wrap">
+                                    <div class="noti__item js-item-menu">
+                                        <i class="zmdi zmdi-comment-more"></i>
+                                        <span class="quantity">1</span>
+                                        <div class="mess-dropdown js-dropdown">
+                                            <div class="mess__title">
+                                                <p>You have 2 news message</p>
+                                            </div>
+                                            <div class="mess__item">
+                                                <div class="image img-cir img-40">
+                                                    <img src="images/icon/avatar-06.jpg" alt="Michelle Moreno" />
+                                                </div>
+                                                <div class="content">
+                                                    <h6>Michelle Moreno</h6>
+                                                    <p>Have sent a photo</p>
+                                                    <span class="time">3 min ago</span>
+                                                </div>
+                                            </div>
+                                            <div class="mess__item">
+                                                <div class="image img-cir img-40">
+                                                    <img src="images/icon/avatar-04.jpg" alt="Diane Myers" />
+                                                </div>
+                                                <div class="content">
+                                                    <h6>Diane Myers</h6>
+                                                    <p>You are now connected on message</p>
+                                                    <span class="time">Yesterday</span>
+                                                </div>
+                                            </div>
+                                            <div class="mess__footer">
+                                                <a href="#">View all messages</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="noti__item js-item-menu">
+                                        <i class="zmdi zmdi-email"></i>
+                                        <span class="quantity">1</span>
+                                        <div class="email-dropdown js-dropdown">
+                                            <div class="email__title">
+                                                <p>You have 3 New Emails</p>
+                                            </div>
+                                            <div class="email__item">
+                                                <div class="image img-cir img-40">
+                                                    <img src="images/icon/avatar-06.jpg" alt="Cynthia Harvey" />
+                                                </div>
+                                                <div class="content">
+                                                    <p>Meeting about new dashboard...</p>
+                                                    <span>Cynthia Harvey, 3 min ago</span>
+                                                </div>
+                                            </div>
+                                            <div class="email__item">
+                                                <div class="image img-cir img-40">
+                                                    <img src="images/icon/avatar-05.jpg" alt="Cynthia Harvey" />
+                                                </div>
+                                                <div class="content">
+                                                    <p>Meeting about new dashboard...</p>
+                                                    <span>Cynthia Harvey, Yesterday</span>
+                                                </div>
+                                            </div>
+                                            <div class="email__item">
+                                                <div class="image img-cir img-40">
+                                                    <img src="images/icon/avatar-04.jpg" alt="Cynthia Harvey" />
+                                                </div>
+                                                <div class="content">
+                                                    <p>Meeting about new dashboard...</p>
+                                                    <span>Cynthia Harvey, April 12,,2018</span>
+                                                </div>
+                                            </div>
+                                            <div class="email__footer">
+                                                <a href="#">See all emails</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="noti__item js-item-menu">
+                                        <i class="zmdi zmdi-notifications"></i>
+                                        <span class="quantity">3</span>
+                                        <div class="notifi-dropdown js-dropdown">
+                                            <div class="notifi__title">
+                                                <p>You have 3 Notifications</p>
+                                            </div>
+                                            <div class="notifi__item">
+                                                <div class="bg-c1 img-cir img-40">
+                                                    <i class="zmdi zmdi-email-open"></i>
+                                                </div>
+                                                <div class="content">
+                                                    <p>You got a email notification</p>
+                                                    <span class="date">April 12, 2018 06:50</span>
+                                                </div>
+                                            </div>
+                                            <div class="notifi__item">
+                                                <div class="bg-c2 img-cir img-40">
+                                                    <i class="zmdi zmdi-account-box"></i>
+                                                </div>
+                                                <div class="content">
+                                                    <p>Your account has been blocked</p>
+                                                    <span class="date">April 12, 2018 06:50</span>
+                                                </div>
+                                            </div>
+                                            <div class="notifi__item">
+                                                <div class="bg-c3 img-cir img-40">
+                                                    <i class="zmdi zmdi-file-text"></i>
+                                                </div>
+                                                <div class="content">
+                                                    <p>You got a new file</p>
+                                                    <span class="date">April 12, 2018 06:50</span>
+                                                </div>
+                                            </div>
+                                            <div class="notifi__footer">
+                                                <a href="#">All notifications</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="account-wrap">
+                                    <div class="account-item clearfix js-item-menu">
+                                        <div class="image">
+                                            <img src="images/icon/logo.png" alt="V-Care" />
+                                        </div>
+                                        <div class="content">
+                                            <a class="js-acc-btn" href="#">V-Care</a>
+                                        </div>
+                                        <div class="account-dropdown js-dropdown">
+                                            <div class="info clearfix">
+                                                <div class="image">
+                                                    <a href="#">
+                                                        <img src="images/icon/logo.png" alt="V-Care" />
+                                                    </a>
+                                                </div>
+                                                <div class="content">
+                                                    <h5 class="name">
+                                                        <a href="#">V-Care</a>
+                                                    </h5>
+                                                    <span class="email">test@v-care.com</span>
+                                                </div>
+                                            </div>
+                                            <div class="account-dropdown__body">
+                                                <div class="account-dropdown__item">
+                                                    <a href="#">
+                                                        <i class="zmdi zmdi-account"></i>Account</a>
+                                                </div>
+                                                <div class="account-dropdown__item">
+                                                    <a href="#">
+                                                        <i class="zmdi zmdi-settings"></i>Setting</a>
+                                                </div>
+                                                <div class="account-dropdown__item">
+                                                    <a href="#">
+                                                        <i class="zmdi zmdi-money-box"></i>Billing</a>
+                                                </div>
+                                            </div>
+                                            <div class="account-dropdown__footer">
+                                                <a href="../../V-care/index.html">
+                                                    <i class="zmdi zmdi-power"></i>Logout</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <!-- HEADER DESKTOP-->
+
+            <!-- MAIN CONTENT-->
+            <div class="main-content">
+                <div class="section__content section__content--p30">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="overview-wrap">
+                                    <h2 class="title-1">Monitoring Services</h2>
+                                    <a href="pres.html"><button class="au-btn au-btn-icon au-btn--blue">
+                                        <i class="zmdi zmdi-upload"></i>Upload Prescription</button></a>
+                                    <button onclick="document.getElementById('id01').style.display='block'" class="au-btn au-btn-icon au-btn--blue">
+                                        <i class="zmdi zmdi-calendar-note"></i>Genrate Report</button>
+                                       <!--#######################-->
+                                       
+                                        <div id="id01" class="w3-modal">
+                                          <div class="w3-modal-content w3-animate-bottom w3-card-4">
+                                            <header class="w3-container w3-blue"> 
+                                              <span onclick="document.getElementById('id01').style.display='none'" 
+                                              class="w3-button w3-display-topright">&times;</span>
+                                              <h2 style="color: white">Report under Observation Queue.</h2>
+                                            </header>
+                                            <div class="w3-container">
+                                              <p>Your Health Report is under Observation of Doctor.</p>
+                                              <p>Once your Health report is Varified and Analyzed by Doctors. You can review it.</p>
+                                              <p>Please try again after some time.</p>
+                                              <p style="color: red;"><b>Health Report is not generated if you dosen't Monitor your body by using V-Care Services.</b></p>
+                                            </div>
+                                            <footer class="w3-container w3-blue">
+                                              <p>Copyright © V-Care</p>
+                                            </footer>
+                                          </div>
+                                        </div>
+                                      
+                                       <!--########################--> 
+                                        
+                                </div>
+                            </div>
+                        </div>
+                        <!--Overview-->
+                        <!-- STATISTIC-->
+            <section class="statistic statistic2">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4" onclick="bmi();">
+                            <div class="card">
+                                <img class="card-img-top" src="images/bmi.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="card-title mb-3">BMI Calculator</h4>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4" onclick="skin();">
+                            <div class="card">
+                                <img class="card-img-top" src="images/skin.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="card-title mb-3">Skin Disease Analyzer</h4>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4" onclick="anx();">
+                            <div class="card">
+                                <img class="card-img-top" src="images/anxity.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="card-title mb-3">Anxity Monitor</h4>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4" onclick="xray();">
+                            <div class="card">
+                                <img class="card-img-top" src="images/x-ray.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="card-title mb-3">X-Ray Monitor</h4>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4" onclick="bone();">
+                            <div class="card">
+                                <img class="card-img-top" src="images/fract.jpeg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="card-title mb-3">Bone Fractures Finder</h4>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4" onclick="heart();">
+                            <div class="card">
+                                <img class="card-img-top" src="images/heart.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="card-title mb-3">Heart Disease Analyzer</h4>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
+            <script>
+                function bmi(){
+                    const bmi="bmi.html";
+                    document.location.href=bmi;
+                }
+                function skin(){
+                    const skin="https://skin-v-care.eu-gb.cf.appdomain.cloud/";
+                    document.location.href=skin;
+                }
+                function anx(){
+                    const anx="FaceAnxity/index.html";
+                    document.location.href=anx;
+                }
+                function xray(){
+                    const xray="https://xray-v-care.eu-gb.cf.appdomain.cloud/";
+                    document.location.href=xray;
+                }
+                function bone(){
+                    const bone="https://bone-v-care.eu-gb.cf.appdomain.cloud/";
+                    document.location.href=bone;
+                }
+                function heart(){
+                    const heart="https://heart-v-care.eu-gb.cf.appdomain.cloud/";
+                    document.location.href=heart;
+                }
+                </script>
+            <!-- END STATISTIC-->
+                        <!--Overview End-->
+                        <!--Leavel2-->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="overview-wrap">
+                                    <h2 class="title-1">Analytical Services</h2>
+                                    <br>
+                                        
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <!--Chat-->
+                            <div class="col-md-6" onclick="chatroom();">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <strong class="card-title mb-3">Doctors chatroom</strong>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="mx-auto d-block">
+                                            <img class="rounded-circle mx-auto d-block" src="images/icon/chatroom.png" alt="Card image cap">
+                                            <h5 class="text-sm-center mt-2 mb-1">Live Chating with Doctors</h5>
+                                            <div class="location text-sm-center">
+                                                <i class="zmdi zmdi-map-marker"></i>If Doctor is Online START Chatting.<br>If Offline Leave Messages.  </div>
+                                        </div>
+                                        <hr>
+                                        <div class="card-text text-sm-center">
+                                            <a href="#">
+                                                <i class="zmdi zmdi-facebook pr-1"></i>
+                                            </a>
+                                            <a href="#">
+                                                <i class="zmdi zmdi-twitter pr-1"></i>
+                                            </a>
+                                            <a href="#">
+                                                <i class="zmdi zmdi-linkedin pr-1"></i>
+                                            </a>
+                                            <a href="#">
+                                                <i class="zmdi zmdi-pinterest pr-1"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <script>
+                                function chatroom(){
+                                    const chatroom="https://tawk.to/vcare";
+                                    const chat1="https://tawk.to/chat/5f218bf896e9c66c5ae57d5f/default";
+                                    document.location.href=chat1;
+                                }
+                                </script>
+                            <!--chat end-->
+                             <!--Watson Chat-->
+                             
+                             <div class="col-md-6"  onclick="watson();">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <strong class="card-title mb-3">IBM Watson Health Assistent</strong>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="mx-auto d-block">
+                                            <img class="rounded-circle mx-auto d-block" src="images/icon/watsonchatbot.jpg" alt="Card image cap">
+                                            <h5 class="text-sm-center mt-2 mb-1">Learn V-Care with Watson Health Assistent.</h5>
+                                            <div class="location text-sm-center">
+                                                <i class="zmdi zmdi-map-marker"></i>Watson Health Assistant will guide the<br>Use of all V-Care Services in effecent way.  </div>
+                                        </div>
+                                        <hr>
+                                        <div class="card-text text-sm-center">
+                                            <a href="#">
+                                                <i class="zmdi zmdi-facebook pr-1"></i>
+                                            </a>
+                                            <a href="#">
+                                                <i class="zmdi zmdi-twitter pr-1"></i>
+                                            </a>
+                                            <a href="#">
+                                                <i class="zmdi zmdi-linkedin pr-1"></i>
+                                            </a>
+                                            <a href="#">
+                                                <i class="zmdi zmdi-pinterest pr-1"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <script>
+                            function watson(){
+                                const watson="https://web-chat.global.assistant.watson.cloud.ibm.com/preview.html?region=eu-gb&integrationID=e188c405-083c-4d7c-b1e4-414aa15b3200&serviceInstanceID=9ddec78c-2bbe-4d97-8017-7e44ffe4e486";
+                                document.location.href=watson;
+                            }
+                            </script>
+                            <!--watson chat end-->
+                            <!--888888888888-->
+                            <div class="col-md-6 " onclick="document.getElementById('id02').style.display='block'">
+                                <!-- CHART PERCENT-->
+                                <div class="chart-percent-2">
+                                    <h3 class="title-3 m-b-30">Health Status</h3>
+                                    <div class="chart-wrap">
+                                        <canvas id="percent-chart2"></canvas>
+                                        <div id="chartjs-tooltip">
+                                            <table></table>
+                                        </div>
+                                    </div>
+                                    <div class="chart-info">
+                                        <div class="chart-note">
+                                            <span class="dot dot--blue"></span>
+                                            <span>Good Health</span>
+                                        </div>
+                                        <div class="chart-note">
+                                            <span class="dot dot--red"></span>
+                                            <span>Bad Health</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- END CHART PERCENT-->
+                            </div>
+                            <!--777777777777-->
+                             <!--#######################-->
+                                       
+                             <div id="id02" class="w3-modal">
+                                <div class="w3-modal-content w3-animate-bottom w3-card-4">
+                                  <header class="w3-container w3-blue"> 
+                                    <span onclick="document.getElementById('id02').style.display='none'" 
+                                    class="w3-button w3-display-topright">&times;</span>
+                                    <h2 style="color: white">Check Your Health Status.</h2>
+                                  </header>
+                                  <div class="w3-container">
+                                   <!--$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$-->
+                                   <div class="row">
+                                    <div class="col-lg-20">
+                                        <div class="card">
+                                            <div class="card-header">Analyzing Health Status</div>
+                                            <div class="card-body">
+                                                <div class="card-title">
+                                                    <h3 class="text-center title-2">Fill the Valid Percentage Score Of Diseases Analyzed By V-Care Services.</h3>
+                                                </div>
+                                                <hr>
+                                                <form>
+                                                    <div class="form-group">
+                                                        <label>BMI</label> 
+                                                        <input type="number" class="form-control" id="bmi" size="25" required>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label>Anxity</label> 
+                                                        <input type="number" class="form-control " id="anxity" size="25" required>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label>Skin Disease</label> 
+                                                        <input type="number" class="form-control" id="skin" size="25" required>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label>X-Ray</label> 
+                                                        <input type="number" class="form-control " id="xray" size="25" required>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label>Bone Fractures</label> 
+                                                        <input type="number" class="form-control" id="bone" size="25" required>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label>Heart Disease</label> 
+                                                        <input type="number" class="form-control " id="heart" size="25" required>
+                                                    </div>
+                                                    <br />
+                                                    <button class="btn btn-lg btn-info btn-block" type="button" onClick="analyze()"> <i class="fa fa-male"></i>&nbsp;Calculate</button>
+                                                   
+                                                </form>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <script>
+                                    function analyze(){
+                                    var bmi=document.getElementById("bmi").value;
+                                    var anxity=document.getElementById("anxity").value;
+                                    var skin=document.getElementById("skin").value;
+                                    var xray=document.getElementById("xray").value;
+                                    var bone=document.getElementById("bone").value;
+                                    var heart=document.getElementById("heart").value;
+                                    var sum=parseFloat(anxity)+parseFloat(bmi)+parseFloat(skin)+parseFloat(xray)+parseFloat(bone)+parseFloat(heart);
+                                    var ptn=80; 
+                                    ptn=(sum/500.00)*100.00;
+                                     if(ptn>=75)
+                                    ptn=ptn-28;
+                                    if(ptn<=25)
+                                    ptn=ptn+31; 
+                                    if(ptn>100||ptn<=0)
+                                    alert("All Fields are Mandatory.");
+                                    ////////////////////////////////
+                                    try {
+
+// Percent Chart 2
+var ctx = document.getElementById("percent-chart2");
+if (ctx) {
+  ctx.height = 209;
+  var myChart = new Chart(ctx, {
+    type: 'doughnut',
+    data: {
+      datasets: [
+        {
+          label: "My First dataset",
+          data: [ptn, 100-ptn],
+          backgroundColor: [
+            '#00b5e9',
+            '#fa4251'
+          ],
+          hoverBackgroundColor: [
+            '#00b5e9',
+            '#fa4251'
+          ],
+          borderWidth: [
+            0, 0
+          ],
+          hoverBorderColor: [
+            'transparent',
+            'transparent'
+          ]
+        }
+      ],
+      labels: [
+        'Good Health',
+        'Bed Health'
+      ]
+    },
+    options: {
+      maintainAspectRatio: false,
+      responsive: true,
+      cutoutPercentage: 87,
+      animation: {
+        animateScale: true,
+        animateRotate: true
+      },
+      legend: {
+        display: false,
+        position: 'bottom',
+        labels: {
+          fontSize: 14,
+          fontFamily: "Poppins,sans-serif"
+        }
+
+      },
+      tooltips: {
+        titleFontFamily: "Poppins",
+        xPadding: 15,
+        yPadding: 10,
+        caretPadding: 0,
+        bodyFontSize: 16,
+      }
+    }
+  });
+}
+
+} catch (error) {
+console.log(error);
+}
+                                    ///////////////////////////////
+                                    document.getElementById('id02').style.display='none';
+                                    }
+                                </script>
+                                   <!--$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$-->
+                                    <p style="color: red;"><b>Health Status is not Analyzed if you dosen't Monitor your body by using V-Care Services.</b></p>
+                                  </div>
+                                  <footer class="w3-container w3-blue">
+                                    <p>Copyright © V-Care</p>
+                                  </footer>
+                                </div>
+                              </div>
+                            
+                             <!--########################--> 
+                            <!--productivity chart-->
+                            <div class="col-lg-6">
+                                <div class="au-card recent-report">
+                                    <div class="au-card-inner">
+                                        <h3 class="title-2">Health Productivity Chart</h3>
+                                        <div class="chart-info">
+                                            <div class="chart-info__left">
+                                                <div class="chart-note">
+                                                    <span class="dot dot--blue"></span>
+                                                    <span>With V-Care</span>
+                                                    <i class="zmdi zmdi-long-arrow-up "></i>25%
+                                                </div>
+                                                <div class="chart-note mr-0">
+                                                    <span class="dot dot--green"></span>
+                                                    <span>Without V-Care</span>
+                                                    
+                                                    <i class="zmdi zmdi-long-arrow-down " ></i>10%
+                                        
+                                                </div>
+                                            </div>
+                                         
+                                        </div>
+                                        <div class="recent-report__chart">
+                                            <canvas id="recent-rep-chart"></canvas>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--productivity chart end-->
+                        </div>
+                        <!--leavel 2 end-->
+                          
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="au-card au-card--no-shadow au-card--no-pad m-b-40">
+                                    <div class="au-card-title" style="background-image:url('images/bg-title-01.jpg');">
+                                        <div class="bg-overlay bg-overlay--blue"></div>
+                                        <h3>
+                                            <i class="zmdi zmdi-hospital"></i>Best Hospitals In India</h3>
+                                        
+                                    </div>
+                                    <div class="au-task js-list-load">
+                                  
+                                        <div class="au-task-list js-scrollbar3">
+                                            <div class="au-task__item au-task__item--danger">
+                                                <div class="au-task__item-inner">
+                                                    <h5 class="task">
+                                                        <a href="#">Apolo Hospital Chennai</a>
+                                                    </h5>
+                                                    <span class="time">Dermatology</span>
+                                                </div>
+                                            </div>
+                                            <div class="au-task__item au-task__item--warning">
+                                                <div class="au-task__item-inner">
+                                                    <h5 class="task">
+                                                        <a href="#">Gleneagles Global Hospital</a>
+                                                    </h5>
+                                                    <span class="time">Phychology</span>
+                                                </div>
+                                            </div>
+                                            <div class="au-task__item au-task__item--primary">
+                                                <div class="au-task__item-inner">
+                                                    <h5 class="task">
+                                                        <a href="#">Indraprastha Apollo Hospital</a>
+                                                    </h5>
+                                                    <span class="time">Orthopedic</span>
+                                                </div>
+                                            </div>
+                                            <div class="au-task__item au-task__item--success">
+                                                <div class="au-task__item-inner">
+                                                    <h5 class="task">
+                                                        <a href="#">The Mayo Clenic</a>
+                                                    </h5>
+                                                    <span class="time">Pulmonology</span>
+                                                </div>
+                                            </div>
+                                            <div class="au-task__item au-task__item--danger js-load-item">
+                                                <div class="au-task__item-inner">
+                                                    <h5 class="task">
+                                                        <a href="#">Fortis Escorts Heart Institute</a>
+                                                    </h5>
+                                                    <span class="time">Cardiology</span>
+                                                </div>
+                                            </div>
+                                            <div class="au-task__item au-task__item--warning js-load-item">
+                                                <div class="au-task__item-inner">
+                                                    <h5 class="task">
+                                                        <a href="#">Kokilaben Dhirubhai Ambani Hospital</a>
+                                                    </h5>
+                                                    <span class="time">Cardiology</span>
+                                                </div>
+                                            </div>
+                                            <div class="au-task__item au-task__item--warning js-load-item">
+                                                <div class="au-task__item-inner">
+                                                    <h5 class="task">
+                                                        <a href="#">Kokilaben Dhirubhai Ambani Hospital</a>
+                                                    </h5>
+                                                    <span class="time">Covid-19</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="au-task__footer">
+                                            <button class="au-btn au-btn-load js-load-btn">load more</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="au-card au-card--no-shadow au-card--no-pad m-b-40">
+                                    <div class="au-card-title" style="background-image:url('images/bg-title-02.jpg');">
+                                        <div class="bg-overlay bg-overlay--blue"></div>
+                                        <h3>
+                                            <i class="zmdi zmdi-account-add"></i>Recmonded Doctors</h3>
+                                        
+                                    </div>
+                                    <div class="au-inbox-wrap js-inbox-wrap">
+                                        <div class="au-message js-list-load">
+                                           
+                                            <div class="au-message-list">
+                                                <div class="au-message__item unread">
+                                                    <div class="au-message__item-inner">
+                                                        <div class="au-message__item-text">
+                                                            <div class="avatar-wrap">
+                                                                <div class="avatar">
+                                                                    <img src="images/1478150872maraju-hyderabad.jpg" alt="John Smith">
+                                                                </div>
+                                                            </div>
+                                                            <div class="text">
+                                                                <h5 class="name">Dr.B. Somaraju</h5>
+                                                                <p>MBBS, MD, DM, PH.D</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="au-message__item-time">
+                                                            <span>Cardiologist</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="au-message__item unread">
+                                                    <div class="au-message__item-inner">
+                                                        <div class="au-message__item-text">
+                                                            <div class="avatar-wrap online">
+                                                                <div class="avatar">
+                                                                    <img src="images/1450762195dhansu-bhattacharyya-mumbai.jpg" alt="Nicholas Martinez">
+                                                                </div>
+                                                            </div>
+                                                            <div class="text">
+                                                                <h5 class="name">Dr. Sudhansu Bhattacharyya</h5>
+                                                                <p>MBBS, MS, MCHe</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="au-message__item-time">
+                                                            <span>Cardiovascular-Surgeon</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="au-message__item">
+                                                    <div class="au-message__item-inner">
+                                                        <div class="au-message__item-text">
+                                                            <div class="avatar-wrap online">
+                                                                <div class="avatar">
+                                                                    <img src="images/1575009328rthy.jpg" alt="Michelle Sims">
+                                                                </div>
+                                                            </div>
+                                                            <div class="text">
+                                                                <h5 class="name">Dr.J.M.K. Murthy</h5>
+                                                                <p>MBBS, MD, DM, FAMS, FAAN</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="au-message__item-time">
+                                                            <span>Neurologist</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="au-message__item">
+                                                    <div class="au-message__item-inner">
+                                                        <div class="au-message__item-text">
+                                                            <div class="avatar-wrap">
+                                                                <div class="avatar">
+                                                                    <img src="images/1595920672mayde.jpg" alt="Michelle Sims">
+                                                                </div>
+                                                            </div>
+                                                            <div class="text">
+                                                                <h5 class="name">Dr. Amit Maydeo</h5>
+                                                                <p>MBBS, MS, FASGE</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="au-message__item-time">
+                                                            <span>Gastroenterologist</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="au-message__item js-load-item">
+                                                    <div class="au-message__item-inner">
+                                                        <div class="au-message__item-text">
+                                                            <div class="avatar-wrap online">
+                                                                <div class="avatar">
+                                                                    <img src="images/1553dr-ambrish-gurgaon.jpg" alt="Michelle Sims">
+                                                                </div>
+                                                            </div>
+                                                            <div class="text">
+                                                                <h5 class="name">Dr. Ambrish Mithal</h5>
+                                                                <p>MBBS, MD, DM</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="au-message__item-time">
+                                                            <span>Endocrinologist</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="au-message__item js-load-item">
+                                                    <div class="au-message__item-inner">
+                                                        <div class="au-message__item-text">
+                                                            <div class="avatar-wrap">
+                                                                <div class="avatar">
+                                                                    <img src="images/1532dr-ashok-gurgaon.jpg" alt="Michelle Sims">
+                                                                </div>
+                                                            </div>
+                                                            <div class="text">
+                                                                <h5 class="name">Dr. Ashok Rajgopal</h5>
+                                                                <p>MBBS, MS, M. Ch, FIMSA, FRCS</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="au-message__item-time">
+                                                            <span>Orthopedic Surgeon</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="au-message__footer">
+                                                <button class="au-btn au-btn-load js-load-btn">load more</button>
+                                            </div>
+                                        </div>
+                                       
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                                               
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="copyright">
+                                    <hr>
+                                   <b> <p>Copyright © V-Care. All rights reserved. <br>A Suryansh Trivedi Productions.<br></p></b>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END MAIN CONTENT-->
+            <!-- END PAGE CONTAINER-->
+        </div>
+
+    </div>
+
+    <!-- Jquery JS-->
+    <script src="vendor/jquery-3.2.1.min.js"></script>
+    <!-- Bootstrap JS-->
+    <script src="vendor/bootstrap-4.1/popper.min.js"></script>
+    <script src="vendor/bootstrap-4.1/bootstrap.min.js"></script>
+    <!-- Vendor JS       -->
+    <script src="vendor/slick/slick.min.js">
+    </script>
+    <script src="vendor/wow/wow.min.js"></script>
+    <script src="vendor/animsition/animsition.min.js"></script>
+    <script src="vendor/bootstrap-progressbar/bootstrap-progressbar.min.js">
+    </script>
+    <script src="vendor/counter-up/jquery.waypoints.min.js"></script>
+    <script src="vendor/counter-up/jquery.counterup.min.js">
+    </script>
+    <script src="vendor/circle-progress/circle-progress.min.js"></script>
+    <script src="vendor/perfect-scrollbar/perfect-scrollbar.js"></script>
+    <script src="vendor/chartjs/Chart.bundle.min.js"></script>
+    <script src="vendor/select2/select2.min.js">
+    </script>
+
+    <!-- Main JS-->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
+<!-- end document-->
