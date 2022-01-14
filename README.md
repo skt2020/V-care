@@ -58,21 +58,21 @@ Explore the Home page of V-Care.
 When you click the 3- lines icon you will get the navigation menu which contains 5 elements
 Dashboard, Home, About, Services, Contact. You will get detailed information about these
 sections in further steps. Visit Dashboard button will redirect you to the V-Care Dashboard
-![covid19](https://user-images.githubusercontent.com/44112240/149521379-7cb74b0b-b92d-4fb1-99ad-9a58638205aa.png)
+![image](https://user-images.githubusercontent.com/44112240/149572032-4267f6ed-73d2-488a-9039-232a6e7f69d0.png)
 Scroll down the Home page to view other sections
-![covid19](https://user-images.githubusercontent.com/44112240/149521379-7cb74b0b-b92d-4fb1-99ad-9a58638205aa.png)
+![image](https://user-images.githubusercontent.com/44112240/149572085-891a59f6-64fe-479c-b81c-61485d345346.png)
 What we do section will showcase some of our main features.
-![covid19](https://user-images.githubusercontent.com/44112240/149521379-7cb74b0b-b92d-4fb1-99ad-9a58638205aa.png)
+![image](https://user-images.githubusercontent.com/44112240/149572168-c3d31419-53e0-4a74-a76b-e91ba4efe1e3.png)
 About Us section will give you clear idea about our goals and services
-![covid19](https://user-images.githubusercontent.com/44112240/149521379-7cb74b0b-b92d-4fb1-99ad-9a58638205aa.png)
+![image](https://user-images.githubusercontent.com/44112240/149572263-d0b2b279-fc88-4fd0-a8af-d2c14433d57e.png)
 Why should you use V-Care provides you some advantages of using V-Care
-![covid19](https://user-images.githubusercontent.com/44112240/149521379-7cb74b0b-b92d-4fb1-99ad-9a58638205aa.png)
+![image](https://user-images.githubusercontent.com/44112240/149572383-6c1fff8c-8f6f-4285-98d7-5cf0b79942f0.png)
 If the Customer wants some free health tips regularly on their mail, they need to submit their Email here
-![covid19](https://user-images.githubusercontent.com/44112240/149521379-7cb74b0b-b92d-4fb1-99ad-9a58638205aa.png)
+![image](https://user-images.githubusercontent.com/44112240/149572477-aab13ab1-ba27-4ad8-bf64-149a0126d6e1.png)
 You can explore some of V-Care services without visiting to dashboard from here.
-![covid19](https://user-images.githubusercontent.com/44112240/149521379-7cb74b0b-b92d-4fb1-99ad-9a58638205aa.png)
+![image](https://user-images.githubusercontent.com/44112240/149572545-b974866f-3b70-4a10-8f7e-6d8ec4388df4.png)
 Get in Touch section will allow the customers to ask their questions and provide honest feedback.
-![covid19](https://user-images.githubusercontent.com/44112240/149521379-7cb74b0b-b92d-4fb1-99ad-9a58638205aa.png)
+![image](https://user-images.githubusercontent.com/44112240/149572612-30c6e0e9-be85-4a79-a1ab-2d31dc5f043d.png)
 Contact Us section will provide some contact details of developer. At last there is copyright
 section
 
@@ -80,7 +80,7 @@ section
 * Step 3
 Once you click on Visit Dashboard button from V-Care Home page you will redirected to
 Dashboard page
-![covid19](https://user-images.githubusercontent.com/44112240/149521379-7cb74b0b-b92d-4fb1-99ad-9a58638205aa.png)
+![image](https://user-images.githubusercontent.com/44112240/149572675-9903c4cb-f454-4525-8d97-309e7bb3861b.png)
 Explore the dashboard. V-Care Dashboard will provide 2 sections i.e. Monitoring and Analytical
 section under each section different types of services are provided. Left side of Dashboard will
 contains Navigation section. Which contains 4 elements Dashboard, Appointment, Dr. Chat,
@@ -89,7 +89,7 @@ On top right corner you will show your profile (for simplicity during developmen
 purpose you will login as V-Care ). Click on logout for to reach to home page.
 
 ### -> Monitoring Services: 
-![covid19](https://user-images.githubusercontent.com/44112240/149521379-7cb74b0b-b92d-4fb1-99ad-9a58638205aa.png)
+![image](https://user-images.githubusercontent.com/44112240/149572739-9353f280-757d-4958-9e92-e2811da67ee3.png)
 Monitoring Service Section is a group of 6 services i.e. BMI Calculator, Skin Disease Analyzer,
 Anxiety Monitor, X-Ray Monitor, Bone Fracture Finder, Heart disease Analyzer.
 Along with all these 6 services there are 2 additional services (Upload Prescription and Generate
@@ -98,20 +98,20 @@ Report Service)
 Chick on BMI Calculator you will reach to BMI Calculator form where you need to fill your body
 details (Height and Weight) it will calculate your BMI and show whether you are under nourished,
 over nourished or fit
-![covid19](https://user-images.githubusercontent.com/44112240/149521379-7cb74b0b-b92d-4fb1-99ad-9a58638205aa.png)
+![image](https://user-images.githubusercontent.com/44112240/149572857-9eb344e4-f0f0-463e-aebc-41a91f083259.png)
 #### -> Skin Disease Analyzer: 
 Skin Disease Analyzer will detect your skin disease with high accuracy once you show image of
 disease Infront of camera It will also plot graph to show its accuracy for disease.
 
-![covid19](https://user-images.githubusercontent.com/44112240/149521379-7cb74b0b-b92d-4fb1-99ad-9a58638205aa.png)
+![image](https://user-images.githubusercontent.com/44112240/149572925-80c3b29b-7265-4f75-8257-dc7f51b65a9b.png)
 #### -> Anxiety Analyzer: 
 Once the person comes Infront of camera Anxiety analyzer will shows his depression level and
 emotions by tracking 68 landmarks on his face.
-![covid19](https://user-images.githubusercontent.com/44112240/149521379-7cb74b0b-b92d-4fb1-99ad-9a58638205aa.png)
+![image](https://user-images.githubusercontent.com/44112240/149573029-de79a341-038b-4f9f-bd1d-3c8c2e02a592.png)
 #### -> Heart Disease Analyzer :
 Heart Disease Analyzer will analyze your heart disease with high accuracy once you show image of
 ECG Graph Infront of camera It will also plot graph to show its accuracy for disease 
-![covid19](https://user-images.githubusercontent.com/44112240/149521379-7cb74b0b-b92d-4fb1-99ad-9a58638205aa.png)
+![Uploading image.png…]()
 #### -> Bones Fractures Monitor: 
 Bone disease monitor will detect your fractures in bones x-ray with high accuracy once you show
 image of x-ray Infront of camera It will also plot graph to show its accuracy for disease
