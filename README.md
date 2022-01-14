@@ -52,6 +52,7 @@ Visit https://v-care.eu-gb.cf.appdomain.cloud/ to Start V-Care for Virtual Medic
 
 * Step 2
 Once you hit the above URL you will reached to the landing (Home) page of V-Care.
+
 ![image](https://user-images.githubusercontent.com/44112240/149571783-20dc814f-77af-4229-85c1-ad23a3fd8e83.png)
 
 Explore the Home page of V-Care.
@@ -78,9 +79,10 @@ section
 
 
 * Step 3
-Once you click on Visit Dashboard button from V-Care Home page you will redirected to
-Dashboard page
+Once you click on Visit Dashboard button from V-Care Home page you will redirected to Dashboard page
+
 ![image](https://user-images.githubusercontent.com/44112240/149572675-9903c4cb-f454-4525-8d97-309e7bb3861b.png)
+
 Explore the dashboard. V-Care Dashboard will provide 2 sections i.e. Monitoring and Analytical
 section under each section different types of services are provided. Left side of Dashboard will
 contains Navigation section. Which contains 4 elements Dashboard, Appointment, Dr. Chat,
@@ -111,33 +113,33 @@ emotions by tracking 68 landmarks on his face.
 #### -> Heart Disease Analyzer :
 Heart Disease Analyzer will analyze your heart disease with high accuracy once you show image of
 ECG Graph Infront of camera It will also plot graph to show its accuracy for disease 
-![Uploading image.png…]()
+![image](https://user-images.githubusercontent.com/44112240/149573899-9f81400a-ba04-41f3-8354-eec11cd88f58.png)
 #### -> Bones Fractures Monitor: 
 Bone disease monitor will detect your fractures in bones x-ray with high accuracy once you show
 image of x-ray Infront of camera It will also plot graph to show its accuracy for disease
 
-![covid19](https://user-images.githubusercontent.com/44112240/149521379-7cb74b0b-b92d-4fb1-99ad-9a58638205aa.png)
+![image](https://user-images.githubusercontent.com/44112240/149573969-1a653398-8283-402a-bd2a-3e3bec1f7da4.png)
 #### -> X-Ray Monitor:
 X-Ray monitor will analyze the x-ray of bones with high accuracy and tells the x-ray belongs to
 which part of body once you show image of x-ray Infront of camera It will also plot graph to show
 its accuracy for disease
 
-![covid19](https://user-images.githubusercontent.com/44112240/149521379-7cb74b0b-b92d-4fb1-99ad-9a58638205aa.png)
+![image](https://user-images.githubusercontent.com/44112240/149574021-7bb20716-25a9-4194-990a-b138c3dcce5b.png)
 #### -> Prescription Upload:
-![covid19](https://user-images.githubusercontent.com/44112240/149521379-7cb74b0b-b92d-4fb1-99ad-9a58638205aa.png)
+![image](https://user-images.githubusercontent.com/44112240/149574090-1dc86403-a169-42d2-a923-0e46ae2f8e81.png)
 Once you click on prescription upload button you need to fill some basic details in form and
 upload prescription submit it. Doctors will review it and consider it while analyzing your health.
 ####-> Generate Report:
 Once you will analyze your body by V-care services you will generate personalized health report
 from here after doctor’s validation.
-![covid19](https://user-images.githubusercontent.com/44112240/149521379-7cb74b0b-b92d-4fb1-99ad-9a58638205aa.png)
+![image](https://user-images.githubusercontent.com/44112240/149574159-a402d1eb-3962-47cb-80eb-e2477e3164c8.png)
 
 ### -> Analatical Services:
-![covid19](https://user-images.githubusercontent.com/44112240/149521379-7cb74b0b-b92d-4fb1-99ad-9a58638205aa.png)
+![image](https://user-images.githubusercontent.com/44112240/149574201-32e21169-06eb-4ab9-ba18-1062e58a9fee.png)
 Analytical Service Section is a group of 6 services i.e. Doctors Chat room, Watson health assistant,
 Health status, Health productivity chart, best doctors’ recommendations, best hospitals
 recommendations.
-![covid19](https://user-images.githubusercontent.com/44112240/149521379-7cb74b0b-b92d-4fb1-99ad-9a58638205aa.png)
+![image](https://user-images.githubusercontent.com/44112240/149574259-7673a5aa-9831-48b3-8d69-80108f636926.png)
 
 This section under analytical services contains 2 services i.e. health status, health productivity
 chart
@@ -149,24 +151,26 @@ your health scale readings.
 Health status by default show you normal health status of average fit human when you hover a
 mouse cursor over it . When you click on this service you will encounter one model window on
 which you need to fill all the details and then it will show a personalized health status of you .
-![covid19](https://user-images.githubusercontent.com/44112240/149521379-7cb74b0b-b92d-4fb1-99ad-9a58638205aa.png)
+![image](https://user-images.githubusercontent.com/44112240/149574337-fc8cbb21-1e07-44fb-8865-dda90c102e67.png)
 
 ### -> Best doctors and hospitals Recmondations
-![covid19](https://user-images.githubusercontent.com/44112240/149521379-7cb74b0b-b92d-4fb1-99ad-9a58638205aa.png)
+![image](https://user-images.githubusercontent.com/44112240/149574413-05770003-0c95-4856-972a-39ae033578b5.png)
 This section of analatical services will provide you informatin regarding best doctors and hospitals
 available in india for specific diseases.
 
 ### -> Dr. Chat 
-![covid19](https://user-images.githubusercontent.com/44112240/149521379-7cb74b0b-b92d-4fb1-99ad-9a58638205aa.png)
+![image](https://user-images.githubusercontent.com/44112240/149574494-e75e8475-83d3-4977-80e4-404ba45b1424.png)
 Dr. Chat will provide personalized chatt room with doctors you wll ask any queries with doctors . If
 doctors will offline simply drop your message here.
 ### ->Watson health assistant 
-![covid19](https://user-images.githubusercontent.com/44112240/149521379-7cb74b0b-b92d-4fb1-99ad-9a58638205aa.png)
+![image](https://user-images.githubusercontent.com/44112240/149574788-35803a6f-44c0-4586-8908-63d6a0450f20.png)
+
 Watson health assistant will guide you about V-Care platorm and its services you will take help
 from watson assistant to V-care in effective way.
 
 ### ->Appointments
-![covid19](https://user-images.githubusercontent.com/44112240/149521379-7cb74b0b-b92d-4fb1-99ad-9a58638205aa.png)
+![image](https://user-images.githubusercontent.com/44112240/149575082-eea51fcb-278e-45d5-8f42-3a2fc853fdb9.png)
+
 Fix your virtual health appointment with doctors by clicking appointment in navigation pane.
 
 
