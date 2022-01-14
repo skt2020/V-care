@@ -52,7 +52,8 @@ Visit https://v-care.eu-gb.cf.appdomain.cloud/ to Start V-Care for Virtual Medic
 
 * Step 2
 Once you hit the above URL you will reached to the landing (Home) page of V-Care.
-![covid19](https://user-images.githubusercontent.com/44112240/149521379-7cb74b0b-b92d-4fb1-99ad-9a58638205aa.png)
+![image](https://user-images.githubusercontent.com/44112240/149571783-20dc814f-77af-4229-85c1-ad23a3fd8e83.png)
+
 Explore the Home page of V-Care.
 When you click the 3- lines icon you will get the navigation menu which contains 5 elements
 Dashboard, Home, About, Services, Contact. You will get detailed information about these
